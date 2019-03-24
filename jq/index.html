@@ -36,11 +36,15 @@
         }
 
         nodes.addClass = function (classes) {
-            for (let i = 0; i < nodes.length; i++) {
-                classes.forEach((value) => nodes[i].classList.add(value))
+            console.dir(nodes)
+            for (let i = 0; i < nodes.length; i++) { 
+                nodes[i].classList.add(classes)
             }
+            // for (let i = 0; i < nodes.length; i++) {
+            //     classes.forEach((value) => {return nodes[i].classList.add(value)})
+            // }
         }
-        
+
         nodes.setText = function (text) {
             for (let i = 0; i < nodes.length; i++) {
                 nodes[i].textContent = text
@@ -49,14 +53,9 @@
         return nodes
     }
 
-    window.$=jQuery
-    
-    // var $div = $('div')
-    // $div.addClass('red')
-   
+    window.$ = jQuery
     var $div = $('div')
-    
-    $div.addClass(['red'])
+    $div.addClass('red')
     $div.setText('hi')
 </script>
 
