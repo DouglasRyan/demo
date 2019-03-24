@@ -41,7 +41,7 @@
             }
         }
         
-        nodes.setTexts = function (text) {
+        nodes.setText = function (text) {
             for (let i = 0; i < nodes.length; i++) {
                 nodes[i].textContent = text
             }
@@ -57,7 +57,7 @@
     var $div = $('div')
     
     $div.addClass(['red'])
-    $div.setTexts('hi')
+    $div.setText('hi')
 </script>
 
 </html>
