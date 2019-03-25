@@ -1,0 +1,34 @@
+/*flex布局，图片横向摆放*/
+
+.images {
+    display: flex;
+    align-items: flex-start;
+    transition: all 0.5s;
+}
+
+.images>img {
+    vertical-align: top;
+}
+
+.window {
+    width: 300px;
+    overflow: hidden;
+}
+
+/* 状态集 */
+
+.position-1 {
+    transform: translateX(0)
+}
+
+.position-2 {
+    transform: translateX(-300px)
+}
+
+.position-3 {
+    transform: translateX(-600px)
+}
+
+.position-4 {
+    transform: translateX(-900px)
+}
