@@ -8,4 +8,4 @@
 使用js切换状态（使用jQuery库）
 本状态集合为——横向平移
 
-[预览链接]()
+[预览链接](https://douglasryan.github.io/demo/carousel/carousel-2)
