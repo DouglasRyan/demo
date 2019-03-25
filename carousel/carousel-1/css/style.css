@@ -15,3 +15,9 @@
     overflow: hidden;
 }
 
+/* 高亮 */
+.red{
+    color:yellow;
+    fill: red;
+    background:red;
+}
