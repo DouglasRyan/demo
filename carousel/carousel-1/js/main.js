@@ -1,12 +1,20 @@
 $(p1).on('click', function () {
-    $(images).removeClass('position-2 position-3 positong-4').addClass('position-1')
+    $(images).css({
+        transform:'translateX(0)'
+    })
 })
 $(p2).on('click', function () {
-    $(images).removeClass('position-1 position-3 positong-4').addClass('position-2')
+    $(images).css({
+        transform:'translateX(-300px)'
+    })
 })
 $(p3).on('click', function () {
-    $(images).removeClass('position-1 position-2 positong-4').addClass('position-3')
+    $(images).css({
+        transform:'translateX(-600px)'
+    })
 })
 $(p4).on('click', function () {
-    $(images).removeClass('position-1 position-2 positong-3').addClass('position-4')
+    $(images).css({
+        transform:'translateX(-900px)'
+    })
 })

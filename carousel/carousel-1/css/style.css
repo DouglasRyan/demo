@@ -15,20 +15,3 @@
     overflow: hidden;
 }
 
-/* 状态集 */
-
-.position-1 {
-    transform: translateX(0)
-}
-
-.position-2 {
-    transform: translateX(-300px)
-}
-
-.position-3 {
-    transform: translateX(-600px)
-}
-
-.position-4 {
-    transform: translateX(-900px)
-}
