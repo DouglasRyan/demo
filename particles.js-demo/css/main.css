@@ -1,0 +1,25 @@
+.wrapper{
+    margin: 0 auto;
+    width:480px;
+    position: relative;
+    top:100px;
+}
+
+.wrap{
+    
+    display: flex;
+    box-sizing: border-box;
+    width:480px;
+    border:1px solid green;
+    flex-flow: wrap;
+}
+.items{
+    box-sizing: border-box;
+    flex-basis: 50%;
+    height:50px;
+    border: 1px solid red;
+    background: #abefcd;
+}
+.items:nth-child(1),.items:nth-child(2){
+    
+}
